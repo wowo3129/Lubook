@@ -2,32 +2,37 @@ package com.lubook.os.base;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
-import android.view.View;
 
 /**
- * Created by ZJcan on 2017-06-06.
+ * Created by wowo on 2017/6/23.
  */
 
 public class BaseActivity extends Activity {
 
+    public static Handler handler = new Handler();
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        View decorView = getWindow().getDecorView();
-        int uiOptions = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
-                | View.SYSTEM_UI_FLAG_FULLSCREEN;
-        decorView.setSystemUiVisibility(uiOptions);
+        BaseApplication.getInstance().AddActivity(this);
+
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        finish();
-    }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        BaseApplication.getInstance().removeActivity(this);
     }
+
+    /**
+     * 退出应用
+     */
+    public void exit() {
+        BaseApplication.getInstance().exit();
+    }
+
+
 }

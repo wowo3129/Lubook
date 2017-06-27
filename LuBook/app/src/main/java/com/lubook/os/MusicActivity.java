@@ -6,13 +6,11 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.widget.Toast;
 
-import com.baidu.location.BDLocation;
-import com.baidu.location.BDLocationListener;
+import com.blankj.utilcode.util.LogUtils;
+import com.blankj.utilcode.util.Utils;
 import com.lubook.os.base.BaseActivity;
 import com.lubook.os.base.BaseBean;
-import com.lubook.os.util.BaiLocHelper;
 import com.lubook.os.util.LocalJsonResolutionUtils;
-import com.lubook.os.util.LogUtils;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import java.io.File;
@@ -32,7 +30,6 @@ public class MusicActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initLog();
         setContentView(R.layout.activity_music);
         mContext = this;
 
@@ -54,9 +51,7 @@ public class MusicActivity extends BaseActivity {
     }
 
 
-    private void initLog() {
-        LogUtils.Builder builder = new LogUtils.Builder(getApplicationContext()).setBorderSwitch(false).setLogHeadSwitch(false);
-    }
+
 
     @Override
     protected void onResume() {
