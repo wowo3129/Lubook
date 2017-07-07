@@ -1,620 +1,623 @@
 {
     "result": [
         {
-            "albumname": "我是歌手 第二季 总决赛",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-06-15/G.E.M.%E9%82%93%E7%B4%AB%E6%A3%8B/%E6%88%91%E6%98%AF%E6%AD%8C%E6%89%8B%20%E7%AC%AC%E4%BA%8C%E5%AD%A3%20%E6%80%BB%E5%86%B3%E8%B5%9B/We%20Will%20Rock%20You%20%2B%20%E4%B8%80%E6%97%A0%E6%89%80%E6%9C%89%20%2B%20We%20Are%20The%20Champions%28live%E7%89%88%29.mp3?token=52154cd79bc94086c8df903db882770dda91e4e0&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "40460181",
+            "albumname": "安和桥北",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-05-21/%E5%AE%8B%E5%86%AC%E9%87%8E/%E5%AE%89%E5%92%8C%E6%A1%A5%E5%8C%97/%E5%AE%89%E5%92%8C%E6%A1%A51463797935.mp3?token=5bb8811d5a5c8a7dfe195ab911dc56c1d843b0a4&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "7484805",
             "movienames": [
                 ""
             ],
             "neatsongname": [
-                "We Will Rock You + 一无所有 + We Are The Champions (Live)"
+                "安和桥"
             ],
-            "programname": "我是歌手",
+            "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "2292960"
+                "2351349"
             ],
             "singernames": [
-                "G.E.M.邓紫棋"
+                "宋冬野"
             ],
-            "songname": "We Will Rock You + 一无所有 + We Are The Champions (Live)",
+            "songname": "安和桥",
             "tagnames": [
+                "孤独",
+                "安静",
+                "民谣",
+                "放松",
+                "旅行",
                 "国语",
                 "夜晚",
-                "R&B",
                 "流行",
+                "清新",
+                "散步"
+            ]
+        },
+        {
+            "albumname": "Purpose",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-11-16/Justin%20Bieber/Purpose/Sorry1479265013.mp3?token=e6c459183851cd9ca61a1570122895b4f318ccd0&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "53152336",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "Sorry"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "223358"
+            ],
+            "singernames": [
+                "Justin Bieber"
+            ],
+            "songname": "Sorry",
+            "tagnames": [
+                "流行",
+                "欧美",
                 "放松",
-                "安静",
-                "摇滚",
-                "伤感",
+                "R&B",
+                "运动",
+                "欢快",
                 "90后",
+                "摇滚",
+                "热歌",
+                "治愈"
+            ]
+        },
+        {
+            "albumname": "满园花落",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-04-28/%E9%99%88%E5%B0%8F%E9%93%AD/%E6%BB%A1%E5%9B%AD%E8%8A%B1%E8%90%BD/%E5%A6%82%E6%9E%9C%E4%BD%A0%E5%9B%9E%E6%9D%A51461815181.mp3?token=d5b0bb7f02c07aefaca258758ccd74a62e058a00&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "56153414",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "如果你回来"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "231859"
+            ],
+            "singernames": [
+                "陈小铭"
+            ],
+            "songname": "如果你回来",
+            "tagnames": [
+                "经典"
+            ]
+        },
+        {
+            "albumname": "就是主题歌",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-01-18/%E9%9F%A9%E9%9B%AA/%E5%B0%B1%E6%98%AF%E4%B8%BB%E9%A2%98%E6%AD%8C/%E6%83%B3%E8%B5%B71484703525.mp3?token=351ddbe10e4a272e6d9e8a6e119deba74430f4d0&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "27719502",
+            "movienames": [
+                "愤怒的蝴蝶"
+            ],
+            "neatsongname": [
+                "想起"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "2347575"
+            ],
+            "singernames": [
+                "韩雪"
+            ],
+            "songname": "想起",
+            "tagnames": [
+                "国语",
+                "网络歌曲",
+                "情歌",
+                "影视原声",
+                "伤感",
+                "流行",
+                "安静",
+                "放松",
+                "思念",
+                "孤独"
+            ]
+        },
+        {
+            "albumname": "The Fame Monster",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-03-17/default/The%20Fame%20Monster/Bad%20Romance1489725634.mp3?token=0d017d43ee306d8fd62a2ffedb523aab6c074ddc&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "44950932",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "Bad Romance"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "399949"
+            ],
+            "singernames": [
+                "Lady GaGa"
+            ],
+            "songname": "Bad Romance",
+            "tagnames": [
+                "欢快",
+                "摇滚",
+                "兴奋",
+                "90后",
+                "欧美",
+                "夜店",
+                "电子",
+                "驾车",
+                "流行"
+            ]
+        },
+        {
+            "albumname": "古筝曲",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-11-26/%E9%99%88%E4%BD%A9%E5%BB%B7/%E5%8F%A4%E7%AD%9D%E6%9B%B2/%E8%BF%AB%E4%B8%8D%E5%8F%8A%E5%BE%851480153283.mp3?token=dadcb42d6a2039691a57883998d6d0ac3822abbb&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "58390023",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "迫不及待"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "4733869"
+            ],
+            "singernames": [
+                "陈佩廷"
+            ],
+            "songname": "迫不及待",
+            "tagnames": []
+        },
+        {
+            "albumname": "One Chance 新歌+精选",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-05-24/%E5%BC%A0%E6%9D%B0/One%20Chance%20%E6%96%B0%E6%AD%8C%20%E7%B2%BE%E9%80%89/%E4%BD%95%E5%BF%85%E5%9C%A8%E4%B8%80%E8%B5%B7%20%28%E3%80%8A%E7%A9%BF%E8%B6%8A%E4%B8%89%E9%83%A8%E6%9B%B2%E3%80%8B%E4%B9%8B%E4%B8%89%291464047453.mp3?token=6949fbf7a5b0f28a7d46df6b289d937dd955ef2c&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "46805646",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "何必在一起"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "2328491"
+            ],
+            "singernames": [
+                "张杰"
+            ],
+            "songname": "何必在一起",
+            "tagnames": [
+                "国语",
+                "伤感",
+                "流行",
+                "夜晚",
+                "安静",
+                "思念",
+                "孤独",
+                "影视原声",
+                "清新",
+                "下午茶"
+            ]
+        },
+        {
+            "albumname": "古筝曲",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-11-26/%E9%99%88%E4%BD%A9%E5%BB%B7/%E5%8F%A4%E7%AD%9D%E6%9B%B2/%E7%BC%84%E9%BB%981480152928.mp3?token=119b4f0ea04cecce2adaf750c577975ad28e0be4&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "58389954",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "缄默"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "4733869"
+            ],
+            "singernames": [
+                "陈佩廷"
+            ],
+            "songname": "缄默",
+            "tagnames": []
+        },
+        {
+            "albumname": "潘朵拉",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-06-25/%E5%BC%A0%E9%9F%B6%E6%B6%B5/%E6%BD%98%E6%9C%B5%E6%8B%89/%E9%9A%90%E5%BD%A2%E7%9A%84%E7%BF%85%E8%86%801466811810.mp3?token=cfd85869892d9a9ab36a6c0a42b98dc6053038a3&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "46143609",
+            "movienames": [
+                "爱杀17"
+            ],
+            "neatsongname": [
+                "隐形的翅膀"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "241458"
+            ],
+            "singernames": [
+                "张韶涵"
+            ],
+            "songname": "隐形的翅膀",
+            "tagnames": [
+                "流行",
+                "90后",
+                "国语",
+                "治愈",
+                "驾车",
+                "励志",
+                "KTV",
+                "学习",
+                "夜晚",
                 "影视原声"
             ]
         },
         {
-            "albumname": "是时候",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-05-24/%E5%AD%99%E7%87%95%E5%A7%BF/%E6%98%AF%E6%97%B6%E5%80%99/%E5%BD%93%E5%86%AC%E5%A4%9C%E6%B8%90%E6%9A%961464024223.mp3?token=7cd6287df3dd9ea498e6a93140b9c8d08b730ecc&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "7289040",
+            "albumname": "o1",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-09-08/mizuki%E6%BE%A4%E9%87%8E%E5%BC%98%E4%B9%8B/o1/aLIEz1441669463.mp3?token=94e906cead3052907d5547352ac9fe8386a06c43&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "44428322",
             "movienames": [
-                ""
+                "ALDNOAH.ZERO"
             ],
             "neatsongname": [
-                "当冬夜渐暖"
+                "aLIEz"
             ],
             "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "89188"
+                "2353781",
+                "2328400"
             ],
             "singernames": [
-                "孙燕姿"
+                "泽野弘之",
+                "mizuki"
             ],
-            "songname": "当冬夜渐暖",
+            "songname": "aLIEz",
             "tagnames": [
-                "流行",
-                "国语",
-                "90后",
-                "思念",
-                "孤独",
-                "安静",
-                "下午茶",
-                "KTV",
-                "放松"
-            ]
-        },
-        {
-            "albumname": "Men's Talk About Love",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-12-09/%E6%9D%8E%E5%9C%A3%E6%9D%B0%E6%9E%97%E9%9A%86%E7%92%87/37c93129405e8525728057d1924fa48d/%E4%BD%A0%E9%82%A3%E4%B9%88%E7%88%B1%E4%BB%96%20%28%E3%80%8A%E5%9C%9F%E5%9C%B0%E3%80%8B%E7%94%B5%E8%A7%86%E5%89%A7%E7%89%87%E5%A4%B4%E6%9B%B2%291449628026.mp3?token=de7b7410da8b8d690c4c0bb6c46a7f78d6a71c23&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "52561544",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "你那么爱他"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "3988",
-                "45411"
-            ],
-            "singernames": [
-                "李圣杰",
-                "林隆璇"
-            ],
-            "songname": "你那么爱他",
-            "tagnames": [
-                "伤感",
-                "国语",
-                "流行",
-                "安静",
-                "放松",
-                "90后",
-                "思念",
-                "孤独",
-                "夜晚",
-                "清新"
-            ]
-        },
-        {
-            "albumname": "英雄",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-01-20/%E5%91%A8%E6%9D%B0%E4%BC%A6/%E8%8B%B1%E9%9B%84/%E8%8B%B1%E9%9B%841484868192.mp3?token=42a15bb0f083b6d3c1569e40c0fa72c06c1b5045&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "55495161",
-            "movienames": [
-                "英雄联盟"
-            ],
-            "neatsongname": [
-                "英雄"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "313264"
-            ],
-            "singernames": [
-                "周杰伦"
-            ],
-            "songname": "英雄",
-            "tagnames": [
-                "欢快",
-                "放松",
-                "治愈",
+                "日语",
+                "动漫",
                 "运动",
+                "摇滚",
+                "兴奋",
                 "90后",
-                "下午茶",
-                "国语",
+                "影视原声",
                 "电子",
                 "流行"
             ]
         },
         {
-            "albumname": "我是歌手 第三季 第7期",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-06-13/The%20One/%E6%88%91%E6%98%AF%E6%AD%8C%E6%89%8B%E7%AC%AC%E4%B8%89%E5%AD%A3%20%E7%AC%AC%E4%B8%83%E6%9C%9F/%E9%82%A3%E4%B8%AA%E7%94%B7%E4%BA%BA%20%28Live%29.mp3?token=8d17c963b3f9dce1a5d23b17bcdbc6403371c804&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "2138143",
+            "albumname": "一剪梅",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-05-13/%E8%B4%B9%E7%8E%89%E6%B8%85/%E4%B8%80%E5%89%AA%E6%A2%85/%E4%B8%80%E5%89%AA%E6%A2%851494649724.mp3?token=14818793a3348f5c1b0e8df14617b1b3ba2fc677&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "46499488",
             "movienames": [
-                ""
+                "一剪梅"
             ],
             "neatsongname": [
-                "那个男人 (Live)"
+                "一剪梅"
             ],
-            "programname": "我是歌手",
+            "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "1229"
+                "278025"
             ],
             "singernames": [
-                "The one"
+                "费玉清"
             ],
-            "songname": "那个男人 (Live)",
+            "songname": "一剪梅",
             "tagnames": [
                 "流行",
+                "80后",
                 "国语",
-                "伤感",
-                "安静",
+                "影视原声",
                 "放松",
-                "90后",
-                "思念",
-                "夜晚",
                 "清新",
-                "孤独"
-            ]
-        },
-        {
-            "albumname": "我是歌手 第二季 第8期",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-07-24/%E8%8C%9C%E6%8B%89/%E6%88%91%E6%98%AF%E6%AD%8C%E6%89%8B%20%E7%AC%AC%E4%BA%8C%E5%AD%A3%20%E7%AC%AC%E5%85%AB%E6%9C%9F/%E6%9C%80%E9%95%BF%E7%9A%84%E7%94%B5%E5%BD%B1.mp3?token=15c5e16f508b80633d5185560ccf5c01378fe15f&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "4817156",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "最长的电影"
-            ],
-            "programname": "我是歌手",
-            "singeraliasnames": [],
-            "singerids": [
-                "2346389"
-            ],
-            "singernames": [
-                "茜拉"
-            ],
-            "songname": "最长的电影",
-            "tagnames": [
-                "国语",
+                "R&B",
                 "经典",
-                "流行",
-                "伤感",
-                "安静",
-                "放松",
-                "90后",
-                "翻唱",
-                "综艺热歌",
+                "怀旧",
                 "思念"
             ]
         },
         {
-            "albumname": "10号",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-07-14/%E6%A2%81%E6%B1%89%E6%96%87/10%E5%8F%B7/%E4%B8%83%E5%8F%8B1468454849.mp3?token=14e2fb736dbeabb3955e0ce53d7c31be71c5c413&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "45504289",
+            "albumname": "Deutschland sucht den Superstar United",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-05-23/4570ccf022df4543ea1f219903efb5cb/4da848d4e1f7fadf7fbe5be1542cc4e3/ea942c60249ca93a64266c82e7ddf5bc.mp3?token=9464daf5c990db3a8e516c97638282e2e693a409&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "10662394",
             "movienames": [
-                ""
+                "夏家三千金"
             ],
             "neatsongname": [
-                "七友"
+                "Cry On My Shoulder"
             ],
             "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "265867"
+                "2350481"
             ],
             "singernames": [
-                "梁汉文"
+                "Deutschland sucht den Superstar"
             ],
-            "songname": "七友",
+            "songname": "Cry On My Shoulder",
             "tagnames": [
-                "流行",
-                "粤语",
-                "伤感",
-                "孤独",
-                "放松",
-                "90后",
-                "怀旧",
-                "经典",
-                "夜晚",
-                "安静"
-            ]
-        },
-        {
-            "albumname": "你好，再见",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-01-14/%E6%88%9A%E8%96%87/%E3%80%8A%E4%BD%A0%E5%A5%BD%EF%BC%8C%E5%86%8D%E8%A7%81%E3%80%8B/%E4%BD%A0%E5%A5%BD%EF%BC%8C%E5%86%8D%E8%A7%811452739613.mp3?token=ed58dfbd605e9b08adf19dbefc739680bae8a6a0&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "44821490",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "你好再见"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "267618"
-            ],
-            "singernames": [
-                "戚薇"
-            ],
-            "songname": "你好再见",
-            "tagnames": [
-                "国语",
-                "流行",
-                "情歌",
-                "伤感",
                 "安静",
-                "综艺热歌",
-                "女声",
-                "热歌",
-                "新歌"
-            ]
-        },
-        {
-            "albumname": "Live From Tokyo",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-03-19/Daniel%20Powter/iTunes%20Live%20From%20Tokyo/Free%20Loop%20%5BLive%20From%20Tokyo%5D%20-%20live1489878968.mp3?token=acc2426f9d1602ded41e2ba6698cd72649387df1&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "46050007",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "Free Loop [Live From Tokyo]"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "119536"
-            ],
-            "singernames": [
-                "Daniel Powter"
-            ],
-            "songname": "Free Loop [Live From Tokyo]",
-            "tagnames": [
                 "放松",
-                "欧美",
-                "流行",
-                "摇滚",
-                "民谣",
-                "感动",
-                "夜晚",
                 "R&B",
-                "清新",
-                "钢琴曲"
-            ]
-        },
-        {
-            "albumname": "最炫民族风",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-01-13/%E5%87%A4%E5%87%B0%E4%BC%A0%E5%A5%87/%E6%9C%80%E7%82%AB%E6%B0%91%E6%97%8F%E9%A3%8E/%E5%A5%A2%E9%A6%99%E5%A4%AB%E4%BA%BA1452659637.mp3?token=fbd2e3ccd9bc837b437a50425b445e0d9bd3f837&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "1021887",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "奢香夫人"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "239554"
-            ],
-            "singernames": [
-                "凤凰传奇"
-            ],
-            "songname": "奢香夫人",
-            "tagnames": [
-                "国语",
-                "流行",
-                "驾车",
-                "网络歌曲",
-                "放松",
-                "80后",
-                "欢快",
-                "经典",
-                "运动",
-                "民谣"
-            ]
-        },
-        {
-            "albumname": "One Night@火星演唱会",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-11-29/%E4%BF%A1%E4%B9%90%E5%9B%A2/One%20Night%40%E7%81%AB%E6%98%9F%E6%BC%94%E5%94%B1%E4%BC%9A/%E6%AD%BB%E4%BA%86%E9%83%BD%E8%A6%81%E7%88%B1%28Live%291480383064.mp3?token=da44691afcbb500f8c5687cc40fdda2a9cf234aa&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "45277362",
-            "movienames": [
-                "死了都要爱之信乐团的故事"
-            ],
-            "neatsongname": [
-                "死了都要爱"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "415393"
-            ],
-            "singernames": [
-                "信乐团"
-            ],
-            "songname": "死了都要爱",
-            "tagnames": [
-                "国语",
-                "流行",
-                "摇滚",
-                "KTV",
-                "伤感",
-                "经典",
-                "80后",
-                "影视原声",
-                "经典老歌",
-                "夜晚"
-            ]
-        },
-        {
-            "albumname": "Jay 同名专辑",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-07-23/%E5%91%A8%E6%9D%B0%E4%BC%A6/Jay%20%E5%90%8C%E5%90%8D%E4%B8%93%E8%BE%91/%E6%98%9F%E6%99%B4.mp3?token=8f16ddcab23fbc51d60da7b7875860699cb34df9&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "10346962",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "星晴"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "313264"
-            ],
-            "singernames": [
-                "周杰伦"
-            ],
-            "songname": "星晴",
-            "tagnames": [
-                "旅行",
-                "治愈",
                 "思念",
-                "安静",
-                "清新",
-                "浪漫",
-                "国语",
+                "影视原声",
                 "80后",
+                "情歌",
+                "情人节",
+                "深情",
                 "流行"
             ]
         },
         {
-            "albumname": "Cat And Mouse",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-07-30/By2/Cat%20and%20Mouse/%E6%80%8E%E6%A0%B7%E8%AF%B4%E6%B8%85%E6%AD%A4%E5%88%BB%E7%9A%84%E5%BF%83%E6%83%85.mp3?token=dfaab9eb7c222dc62c35874976c08b24de55684e&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "37412877",
+            "albumname": "午夜两点半的我",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-01-22/%E6%9D%A8%E5%9F%B9%E5%AE%89/%E5%8D%88%E5%A4%9C%E4%B8%A4%E7%82%B9%E5%8D%8A%E7%9A%84%E6%88%91/%E6%88%91%E7%9B%B8%E4%BF%A11453405607.mp3?token=ff31386c543020be60a5354d654d6e7e86308d86&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "10546483",
             "movienames": [
-                "爱情回来了"
+                "第五空间"
             ],
             "neatsongname": [
-                "怎样说清此刻的心情"
+                "我相信"
             ],
             "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "68549"
+                "411925"
             ],
             "singernames": [
-                "by2"
+                "杨培安"
             ],
-            "songname": "怎样说清此刻的心情",
+            "songname": "我相信",
+            "tagnames": [
+                "流行",
+                "国语",
+                "90后",
+                "KTV",
+                "驾车",
+                "治愈",
+                "放松",
+                "运动",
+                "欢快",
+                "思念"
+            ]
+        },
+        {
+            "albumname": "邂逅",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-07-15/%E6%9D%A8%E6%B4%8B%E5%BE%90%E8%89%AF/%E9%82%82%E9%80%85/%E9%82%82%E9%80%85.mp3?token=8a7b7ece0e650fa5a01f90f1c08af4bdfac77440&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "45096031",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "邂逅"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "2349612",
+                "2177755"
+            ],
+            "singernames": [
+                "徐良",
+                "杨洋"
+            ],
+            "songname": "邂逅",
+            "tagnames": [
+                "流行",
+                "国语",
+                "放松",
+                "安静",
+                "夜晚",
+                "轻音乐",
+                "热歌",
+                "90后",
+                "经典",
+                "清晨",
+                "运动",
+                "KTV",
+                "午休",
+                "80后"
+            ]
+        },
+        {
+            "albumname": "绝对想念",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2017-03-12/%E5%BC%A0%E4%BF%A1%E5%93%B2/%E7%BB%9D%E5%AF%B9%E6%83%B3%E5%BF%B5/%E7%88%B1%E5%A6%82%E6%BD%AE%E6%B0%B41489285289.mp3?token=052e8878d1742be889c08cfb2b6c82e2c373c7d5&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "45139636",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "爱如潮水"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "254146"
+            ],
+            "singernames": [
+                "张信哲"
+            ],
+            "songname": "爱如潮水",
             "tagnames": [
                 "国语",
                 "流行",
-                "90后",
-                "清新",
-                "欢快",
-                "放松",
-                "治愈",
-                "甜蜜",
+                "80后",
+                "散步",
+                "怀旧",
+                "伤感",
+                "孤独",
+                "经典",
+                "夜晚",
                 "KTV"
             ]
         },
         {
-            "albumname": "原动力 (星战版)",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-12-28/%E9%B9%BF%E6%99%97/%E5%8E%9F%E5%8A%A8%E5%8A%9B%20%28%E6%98%9F%E6%88%98%E7%89%88%29/%E5%8E%9F%E5%8A%A8%E5%8A%9B1451269268.mp3?token=f1074cba2bcb7f44f04dd4eb44ed20fd1fc43f87&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "54180455",
+            "albumname": "那一年",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-05-21/%E8%AE%B8%E5%B7%8D/%E9%82%A3%E4%B8%80%E5%B9%B4/%E6%95%85%E4%B9%A11463796047.mp3?token=7badb16e7f64acd095b74406b41e4f21ba274e31&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "8812269",
             "movienames": [
-                "星球大战"
+                ""
             ],
             "neatsongname": [
-                "原动力 (星战版) (《星球大战》电影推广曲)"
+                "故乡"
             ],
             "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "209762"
+                "2328395"
             ],
             "singernames": [
-                "鹿晗"
+                "许巍"
             ],
-            "songname": "原动力 (星战版) (《星球大战》电影推广曲)",
+            "songname": "故乡",
             "tagnames": [
                 "流行",
-                "国语",
-                "90后",
-                "欢快",
-                "放松",
-                "治愈",
-                "影视原声",
-                "清新",
                 "摇滚",
+                "国语",
+                "80后",
+                "经典",
+                "治愈",
+                "思念",
+                "KTV",
+                "民谣",
                 "旅行"
             ]
         },
         {
-            "albumname": "燃烧吧青春",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-01-13/%E4%BD%95%E6%B4%81/%E7%87%83%E7%83%A7%E5%90%A7%E9%9D%92%E6%98%A5/%E7%87%83%E7%83%A7%E5%90%A7%E9%9D%92%E6%98%A51452679998.mp3?token=ba089d86ea35440398402e5fb6fd8dce25da0b25&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "27736322",
-            "movienames": [
-                "旋风少女"
-            ],
-            "neatsongname": [
-                "燃烧吧青春"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "108488"
-            ],
-            "singernames": [
-                "何洁"
-            ],
-            "songname": "燃烧吧青春",
-            "tagnames": [
-                "流行",
-                "女声",
-                "热歌",
-                "新歌",
-                "摇滚",
-                "国语"
-            ]
-        },
-        {
-            "albumname": "落红泪",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-06-13/%E5%AD%99%E9%9C%B2/%E8%90%BD%E7%BA%A2%E6%B3%AA/%E4%B8%8B%E8%BE%88%E5%AD%90%E4%B9%9F%E8%A6%81%E6%89%BE%E5%88%B0%E4%BD%A0.mp3?token=817097f19c135bdc7d71811446fef0eef47c4a8a&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "1931123",
+            "albumname": "Here With You - Single",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-11-26/Asher%20Book/Here%20With%20You%20-%20Single/Here%20With%20You1480122015.mp3?token=96401fee28973f5568eff57a341ce3b81cfe3c1b&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "45581520",
             "movienames": [
                 ""
             ],
             "neatsongname": [
-                "下辈子也要找到你"
+                "Here With You"
             ],
             "programname": "",
             "singeraliasnames": [],
             "singerids": [
-                "437008"
+                "323017"
             ],
             "singernames": [
-                "孙露"
+                "Asher Book"
             ],
-            "songname": "下辈子也要找到你",
+            "songname": "Here With You",
             "tagnames": [
-                "国语",
+                "欧美",
                 "流行",
-                "伤感",
+                "兴奋",
+                "电子",
                 "驾车",
-                "思念",
-                "网络歌曲",
+                "英伦",
+                "运动",
                 "摇滚",
-                "安静"
-            ]
-        },
-        {
-            "albumname": "请跟我联络",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-11-27/%E6%9D%8E%E6%98%93%E5%B3%B0/%E8%AF%B7%E8%B7%9F%E6%88%91%E8%81%94%E7%BB%9C/%E8%AF%B7%E8%B7%9F%E6%88%91%E8%81%94%E7%BB%9C1448587331.mp3?token=965195314f7380d41fc692bd812c09aa9aacc7a2&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "53663911",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "请跟我联络"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "124082"
-            ],
-            "singernames": [
-                "李易峰"
-            ],
-            "songname": "请跟我联络",
-            "tagnames": [
-                "流行",
-                "国语",
-                "伤感",
-                "安静",
-                "90后",
-                "影视原声",
-                "孤独",
-                "思念",
-                "夜晚",
-                "散步"
-            ]
-        },
-        {
-            "albumname": "生如夏花",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-07-23/%E6%9C%B4%E6%A0%91/%E7%94%9F%E5%A6%82%E5%A4%8F%E8%8A%B1/%E7%94%9F%E5%A6%82%E5%A4%8F%E8%8A%B1.mp3?token=b3021f9bd9f5d958792c9fe173d6403ea1d19847&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "408148",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "生如夏花"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "380812"
-            ],
-            "singernames": [
-                "朴树"
-            ],
-            "songname": "生如夏花",
-            "tagnames": [
                 "旅行",
                 "治愈",
+                "90后",
+                "夜店",
+                "放松",
+                "欢快",
+                "发泄"
+            ]
+        },
+        {
+            "albumname": "千古",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-03-11/%E8%AE%B8%E5%B5%A9/%E5%8D%83%E5%8F%A4/%E5%8D%83%E5%8F%A41457643452.mp3?token=e9608fd41cbc81b2f44ab244df60a5e160414afa&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "38818335",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "千古"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "2351981"
+            ],
+            "singernames": [
+                "许嵩"
+            ],
+            "songname": "千古",
+            "tagnames": [
+                "国语",
+                "热歌",
+                "流行",
                 "思念",
-                "校园",
+                "孤独",
                 "安静",
+                "90后",
+                "伤感",
+                "放松",
+                "夜晚"
+            ]
+        },
+        {
+            "albumname": "  OST Part.2",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-06-23/PunchChen/7bdfb3a63eb921117dcae6a60e9d6c98/Everytime1466638218.mp3?token=98bbf04edb3dd76271a8d75473372e5662e17d62&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "55489396",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "Everytime"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "367133"
+            ],
+            "singernames": [
+                "Chen"
+            ],
+            "songname": "Everytime",
+            "tagnames": [
+                "韩语",
+                "流行",
+                "影视原声",
+                "治愈",
                 "清新",
+                "下午茶",
+                "R&B",
+                "学习",
+                "放松",
+                "90后"
+            ]
+        },
+        {
+            "albumname": "拾伍 重唱集",
+            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-09-01/%E7%BE%BD%C2%B7%E6%B3%89/%E6%8B%BE%E4%BC%8D%20%E9%87%8D%E5%94%B1%E9%9B%86/%E5%A5%94%E8%B7%911441090560.mp3?token=0a7a2b5909c56504a43cb1baa52d4f8e76df2bde&e=1498743749&source=8a31270a29d7416e83a79884b4d7d05c",
+            "itemid": "5881501",
+            "movienames": [
+                ""
+            ],
+            "neatsongname": [
+                "奔跑"
+            ],
+            "programname": "",
+            "singeraliasnames": [],
+            "singerids": [
+                "2353959"
+            ],
+            "singernames": [
+                "羽泉"
+            ],
+            "songname": "奔跑",
+            "tagnames": [
+                "流行",
                 "国语",
                 "80后",
-                "流行"
-            ]
-        },
-        {
-            "albumname": "心电感应808",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-05-20/%E5%BC%A0%E9%9D%93%E9%A2%96/%E5%BF%83%E7%94%B5%E6%84%9F%E5%BA%94808/%E5%BF%83%E7%94%B5%E6%84%9F%E5%BA%948081463701756.mp3?token=d1f4a357db86448d15ae16c7effe01292208d6c6&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "58309075",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "心电感应808"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "69026"
-            ],
-            "singernames": [
-                "张靓颖"
-            ],
-            "songname": "心电感应808",
-            "tagnames": [
-                "舞曲"
-            ]
-        },
-        {
-            "albumname": "马头琴恋曲",
-            "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-07-08/%E4%B9%8C%E5%85%B0%E5%9B%BE%E9%9B%85/%E9%A9%AC%E5%A4%B4%E7%90%B4%E6%81%8B%E6%9B%B2/%E9%A9%AC%E5%A4%B4%E7%90%B4%E6%81%8B%E6%9B%B2.mp3?token=fd3e1650ee327602e805fbb94d55cd22f2a0a2e5&e=1497883692&source=8a31270a29d7416e83a79884b4d7d05c",
-            "itemid": "27764979",
-            "movienames": [
-                ""
-            ],
-            "neatsongname": [
-                "马头琴恋曲"
-            ],
-            "programname": "",
-            "singeraliasnames": [],
-            "singerids": [
-                "337587",
-                "2183531"
-            ],
-            "singernames": [
-                "乌兰图雅",
-                "额尔古纳乐队"
-            ],
-            "songname": "马头琴恋曲",
-            "tagnames": [
-                "国语",
-                "流行",
-                "新歌",
-                "热歌"
+                "旅行",
+                "热歌",
+                "放松",
+                "怀旧",
+                "运动",
+                "伤感",
+                "摇滚"
             ]
         }
     ]

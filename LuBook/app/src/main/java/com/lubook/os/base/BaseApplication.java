@@ -2,6 +2,7 @@ package com.lubook.os.base;
 
 import android.app.Application;
 import android.content.Context;
+import android.content.res.Configuration;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
@@ -66,6 +67,4 @@ public class BaseApplication extends Application {
             }
         }
     }
-
-
 }

@@ -17,7 +17,6 @@ public class BaseActivity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         BaseApplication.getInstance().AddActivity(this);
-
     }
 
 
