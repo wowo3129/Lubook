@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_inputNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true"
+        android:hint="请输入手机号码" />
+
+    <Button
+        android:id="@+id/btn_ckeck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="验证手机号码" />
+
+</LinearLayout>

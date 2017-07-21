@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sms_relativeView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.lubook.os.login.SMS_mod.SmsLoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        android:singleLine="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/et_phonenum"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_edittext_bg"
+            android:hint="输入您的手机号"
+            android:numeric="integer"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#bfbfbf"
+            android:textColorHint="#bfbfbf"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/et_phonenum"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_sms_code_value"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/login_edittext_bg"
+                android:numeric="integer"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="#bfbfbf"
+                android:textColorHint="#bfbfbf"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/et_sms_code_btn"
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/imageView2"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/login_edittext_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="短信验证"
+                android:textColor="#bfbfbf"
+                android:textColorHint="#bfbfbf"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="登陆"
+            android:textColor="#bfbfbf"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

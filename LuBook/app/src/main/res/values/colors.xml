@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorline">#7c7b7b</color>
     <color name="colormusicBar">#1d1d1e</color>
+    <color name="btn_blue">#0F73CB</color>
+    <color name="dialog_bg">#213d5f</color>
+    <color name="white">#FFFFFF</color>
 </resources>
