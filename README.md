@@ -2,3 +2,4 @@
 借助Retrofit+Rxjava+Gson+MVP 打造的一款美图、美文 的APK
 
 涉及技术： Snackbar 、DrawerLayout
+自定义EditTextDialog
