@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UDP.clipTools.ClipActivity">
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="56dp" />
+    tools:context="com.lubook.os.UDP.phone2phone.Phone2phoneActivity">
+
 </android.support.constraint.ConstraintLayout>

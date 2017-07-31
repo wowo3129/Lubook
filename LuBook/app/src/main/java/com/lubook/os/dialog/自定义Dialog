@@ -1,0 +1,62 @@
+任务 1:
+封装EditDialog,通过Builder 链式自定义显示内容。
+
+参考内容 2：
+
+/*游戏dialog: http://www.cnblogs.com/511mr/archive/2011/10/21/2220253.html*/
+/*安卓下Builder模式解析＋自定义Dialog实战演练  http://blog.csdn.net/androidmsky/article/details/52982815*/
+
+疑难点3：
+editDialog = new EditDialog(EditTextDialogActivity.this, R.style.EditDialog); 这块不能使用applicationContext.
+
+普通的Dialog:
+
+private void faceTrainDailog(String curFacestr) {
+    AlertDialog.Builder builder = new AlertDialog.Builder(mContext);  //先得到构造器
+    builder.setTitle("提示"); //设置标题
+    builder.setMessage("是否开始" + curFacestr + "拍照？"); //设置内容
+    builder.setPositiveButton("确定", new DialogInterface.OnClickListener() { //设置确定按钮
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            Curtrain = 0;
+            isTrain = false;
+            dialog.dismiss(); //关闭dialog
+        }
+    });
+    builder.setNegativeButton("取消", new DialogInterface.OnClickListener() { //设置取消按钮
+        @Override
+        public void onClick(DialogInterface dialog, int which) {
+            dialog.dismiss();
+        }
+    });
+    builder.create().show();
+}
+
+
+/*
+    public void SetNickName() {
+        View edit_dialog = View.inflate(mContext, R.layout.edit_dialog, null);
+        dialog_edit = (EditText) edit_dialog.findViewById(R.id.dialog_edit);
+        dialog_cancle = (Button) edit_dialog.findViewById(R.id.dialog_cancle);
+        dialog_ok = (Button) edit_dialog.findViewById(R.id.dialog_ok);
+
+        dialog_cancle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editDialog.dismiss();
+            }
+        });
+        dialog_ok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                editDialog.dismiss();
+            }
+        });
+
+        editDialog = new EditDialog(EditTextDialogActivity.this, R.style.EditDialog);
+        editDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        editDialog.setContentView(edit_dialog);
+        editDialog.setCanceledOnTouchOutside(false);
+        editDialog.getWindow();
+        editDialog.show();
+    }*/

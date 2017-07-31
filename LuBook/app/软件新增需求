@@ -1,0 +1,20 @@
+1:使用UDP实现两台手机的互相通讯，发送消息，来实现复制粘贴快捷。
+2:PagerAdapter 使用
+3: Dialog的位置设置
+builder = new Dialog(context, R.style.pictureDialogTheme);
+        builder.setCanceledOnTouchOutside(false);
+        //设置对话框的宽高
+        ViewGroup.LayoutParams layoutParams = new ViewGroup.LayoutParams(1000, ViewGroup.LayoutParams.WRAP_CONTENT);
+        builder.setContentView(customView, layoutParams);
+        builder.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        Window window = builder.getWindow();
+        window.setGravity(Gravity.RIGHT);
+4：ImageView阴影效果
+5：bytes[]保存到本地文件，File 传输数据到Server -->  bytes[]直接传输数据到Server.  防止内存溢出，
+
+{
+"开发中使用的到IM SDK" : "环信 云视讯 融云 网易云"，
+"接口回调使用场景": "Client--data-->Server--code/msg-->Client",
+"butes[] --bitmap -->base64的字符串，再post 到 /test  img",
+"网络使用框架","AsyncHttpClient,okhttp,Nohttp"
+}

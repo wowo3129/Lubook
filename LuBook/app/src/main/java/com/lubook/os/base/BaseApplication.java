@@ -5,7 +5,7 @@ import android.content.Context;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
-import com.mob.MobSDK;
+//import com.mob.MobSDK;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,11 +28,11 @@ public class BaseApplication extends Application {
         applicationContext = getApplicationContext();
         listActivity = new ArrayList<BaseActivity>();
         initlog();
-        initMobSDK();
+//        initMobSDK();
     }
 
     private void initMobSDK() {
-        MobSDK.init(applicationContext, "1f72500a68afd", "47b2dd0b3d0f6085e20d3eeb91dbb4b1");
+//        MobSDK.init(applicationContext, "1f72500a68afd", "47b2dd0b3d0f6085e20d3eeb91dbb4b1");
     }
 
     private void initlog() {

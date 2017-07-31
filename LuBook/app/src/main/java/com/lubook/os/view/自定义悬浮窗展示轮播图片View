@@ -1,0 +1,3 @@
+1:  manager = (WindowManager) mContext.getApplicationContext().getSystemService(Context.WINDOW_SERVICE);可以弹出Dialog.
+ manager = (WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE);无法弹出Dialog
+ 获取的服务比mContext获取的WindowManager有啥区别？
