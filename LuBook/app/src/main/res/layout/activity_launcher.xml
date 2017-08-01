@@ -13,8 +13,15 @@
 
     <Button
         android:id="@+id/main_exit_show_info_img"
-        android:layout_below="@id/main_show_info_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/main_show_info_img"
         android:text="退出展览" />
+
+    <Button
+        android:id="@+id/main_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_exit_show_info_img"
+        android:text="Dialog" />
 </RelativeLayout>

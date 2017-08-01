@@ -6,7 +6,12 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.StyleRes;
 import android.text.TextUtils;
+import android.util.DisplayMetrics;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -48,9 +53,9 @@ public class EditDialog extends Dialog {
             this.mContext = mContext;
         }
 
-        public String getEditText(){
+        public String getEditText() {
             String str = dialog_edit.getText().toString().trim();
-            Toast.makeText(mContext, "str:"+str, Toast.LENGTH_SHORT).show();
+            Toast.makeText(mContext, "str:" + str, Toast.LENGTH_SHORT).show();
             return str;
         }
 
@@ -87,8 +92,7 @@ public class EditDialog extends Dialog {
 
         public EditDialog create() {
             final EditDialog editDialog = new EditDialog(mContext, R.style.EditDialog);
-
-            View edit_dialog = View.inflate(mContext, R.layout.edit_dialog, null);
+            View edit_dialog = LayoutInflater.from(mContext).inflate(R.layout.edit_dialog, null);
 
             dialog_edit = (EditText) edit_dialog.findViewById(R.id.dialog_edit);
             icon_dialog = (ImageView) edit_dialog.findViewById(R.id.icon_dialog);
@@ -104,15 +108,20 @@ public class EditDialog extends Dialog {
             if (LeftButtonClickListener != null) cancle.setOnClickListener(LeftButtonClickListener);
             if (iconDrawble != null) icon_dialog.setBackground(iconDrawble);
 
-//            Window win = editDialog.getWindow();
-//            win.getDecorView().setPadding(0, 0, 0, 0);
-//            WindowManager.LayoutParams lp = win.getAttributes();
-//            lp.width = WindowManager.LayoutParams.MATCH_PARENT;
-//            lp.height = WindowManager.LayoutParams.WRAP_CONTENT;
-//            win.setAttributes(lp);
-//            win.setGravity(Gravity.CENTER);
-            editDialog.setContentView(edit_dialog);
-            editDialog.setCanceledOnTouchOutside(false);
+            /*设置Dialog显示*/
+            Window win = editDialog.getWindow();
+            /*宽高*/
+            WindowManager.LayoutParams mParams = win.getAttributes();
+            mParams.width = 720;
+            mParams.height = 720;/*动态获取屏幕尺寸，如果设置march_parent不起作用*/
+            /*位置*/
+            mParams.x = 0;
+            mParams.y = 0;
+
+            mParams.gravity = Gravity.CENTER;
+
+            editDialog.setContentView(edit_dialog, mParams);
+            editDialog.setCanceledOnTouchOutside(false);/*外部点击后不退出*/
             return editDialog;
 
         }

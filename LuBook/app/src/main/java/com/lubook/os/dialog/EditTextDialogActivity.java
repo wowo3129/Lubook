@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
 import com.lubook.os.R;
 import com.lubook.os.base.BaseActivity;
 
@@ -23,17 +24,29 @@ public class EditTextDialogActivity extends BaseActivity implements View.OnClick
     }
 
     private void initView() {
-        Button button_dialog = (Button) findViewById(R.id.button_dialog);
-        button_dialog.setOnClickListener(this);
+        Button dialog_EditDialog = (Button) findViewById(R.id.dialog_EditDialog);
+        dialog_EditDialog.setOnClickListener(this);
+        Button dialog_LoopImgDialog = (Button) findViewById(R.id.dialog_LoopImgDialog);
+        dialog_LoopImgDialog.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.button_dialog:
+            case R.id.dialog_EditDialog:
                 setNick();
                 break;
+            case R.id.dialog_LoopImgDialog:
+                startloopImgDialog();
+                break;
+            default:
+                break;
         }
+    }
+
+    private void startloopImgDialog() {
+        LoopImgDialog showDialog = new LoopImgDialog(EditTextDialogActivity.this);/*这里不可以是getApplicationContext()*/
+        showDialog.show();
     }
 
     private void setNick() {

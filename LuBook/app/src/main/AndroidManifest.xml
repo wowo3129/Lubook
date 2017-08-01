@@ -42,11 +42,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Launcher">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".activity.FTM_Camera" />
         <activity android:name=".zxing.MipcaActivity" />
@@ -77,7 +73,13 @@
                android:exported="true"></service>
         -->
         <activity android:name=".login.smsdemo.SMSDemoActivity" />
-        <activity android:name=".dialog.EditTextDialogActivity"></activity>
+        <activity android:name=".dialog.EditTextDialogActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".UDP.phone2phone.Phone2phoneActivity" />
     </application>
 

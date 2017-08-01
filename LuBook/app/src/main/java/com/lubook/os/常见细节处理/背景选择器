@@ -1,4 +1,7 @@
 {
   "按钮按下效果":"music_next_selector.xml",
+  "自定义View":"EditTextDialog,悬浮窗",
+  "EditText去焦点":"focusable / focusableInTouchMode true",
+
 
 }
