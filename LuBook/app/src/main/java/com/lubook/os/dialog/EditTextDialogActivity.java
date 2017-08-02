@@ -14,6 +14,8 @@ public class EditTextDialogActivity extends BaseActivity implements View.OnClick
     private Context mContext;
     private EditDialog dialog;
     private EditDialog.Builder builder;
+    private ConfirmDialog confirmDialog;
+    private ConfirmDialog.Builder confirmBuilder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,8 @@ public class EditTextDialogActivity extends BaseActivity implements View.OnClick
         dialog_EditDialog.setOnClickListener(this);
         Button dialog_LoopImgDialog = (Button) findViewById(R.id.dialog_LoopImgDialog);
         dialog_LoopImgDialog.setOnClickListener(this);
+        Button dialog_ConfirmDialog = (Button) findViewById(R.id.dialog_ConfirmDialog);
+        dialog_ConfirmDialog.setOnClickListener(this);
     }
 
     @Override
@@ -36,12 +40,34 @@ public class EditTextDialogActivity extends BaseActivity implements View.OnClick
             case R.id.dialog_EditDialog:
                 setNick();
                 break;
+            case R.id.dialog_ConfirmDialog:
+                confirmDialog();
+                break;
             case R.id.dialog_LoopImgDialog:
                 startloopImgDialog();
                 break;
             default:
                 break;
         }
+    }
+
+    private void confirmDialog() {
+        confirmBuilder = new ConfirmDialog.Builder(EditTextDialogActivity.this)
+                .setIcon(null)
+                .setTitle("自定义机器人昵称")
+                .setLeftButtonClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        confirmDialog.dismiss();
+                    }
+                }).setRightButtonClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        confirmDialog.dismiss();
+                    }
+                });
+        confirmDialog = confirmBuilder.create();
+        this.confirmDialog.show();
     }
 
     private void startloopImgDialog() {

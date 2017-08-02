@@ -11,8 +11,14 @@
         android:layout_height="wrap_content"
         android:text="EditDialog" />
     <Button
-        android:id="@+id/dialog_LoopImgDialog"
+        android:id="@+id/dialog_ConfirmDialog"
         android:layout_below="@id/dialog_EditDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ConfirmDialog" />
+    <Button
+        android:id="@+id/dialog_LoopImgDialog"
+        android:layout_below="@id/dialog_ConfirmDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Loop_Img_Dialog" />
