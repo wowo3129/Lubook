@@ -24,4 +24,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/main_exit_show_info_img"
         android:text="Dialog" />
+    <Button
+        android:id="@+id/main_selector_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecor/Shape"/>
 </RelativeLayout>

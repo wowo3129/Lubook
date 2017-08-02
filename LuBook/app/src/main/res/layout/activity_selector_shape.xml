@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lubook.os.SelectorShape.SelectorShapeActivity">
+
+    <Button
+        android:id="@+id/selector_shape_btn1"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        android:background="@drawable/selector_btn1"
+        android:gravity="center"
+        android:text="selector分开Shape" />
+
+    <Button
+        android:id="@+id/selector_shape_btn1_combine"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/selector_shape_btn1"
+        android:background="@drawable/selector_shape_btn1_combine"
+        android:gravity="center"
+        android:text="Selector结合shape" />
+
+    <Button
+        android:id="@+id/selector_shape_btn2_short_dashline"
+        android:layout_width="100dp"
+        android:layout_height="56dp"
+        android:layout_below="@id/selector_shape_btn1_combine"
+        android:background="@drawable/selector_shape_btn2_short_dashline"
+        android:gravity="center"
+        android:text="虚线按钮" />
+
+    <RelativeLayout
+        android:id="@+id/selector_shape_btn3_oval"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/selector_shape_btn2_short_dashline"
+        android:background="@drawable/selector_shape_btn3_oval">
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/selector_shape_btn3_oval_line"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="签到" />
+
+        <View
+            android:id="@+id/selector_shape_btn3_oval_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:background="@color/colorPrimaryDark" />
+
+        <TextView
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/selector_shape_btn3_oval_line"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="15:20" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

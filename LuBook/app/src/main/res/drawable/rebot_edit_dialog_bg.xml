@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle" >
-
+    android:shape="rectangle">
+    <!-- 1 内部填充色-->
     <solid android:color="@color/dialog_bg" />
 
+    <!-- 2 描边，表示边框的像素值，值越大边框越粗-->
     <stroke
         android:width="1px"
         android:color="@color/btn_blue" />
-
+    <!--3 圆角-->
     <corners android:radius="5dp" />
+    <!--4 gradient 渐变色-->
+    <!--5 padding 一般前三个就够了-->
 
 </shape>

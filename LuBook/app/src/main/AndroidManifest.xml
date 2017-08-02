@@ -42,10 +42,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".Launcher">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity android:name=".activity.FTM_Camera" />
         <activity android:name=".zxing.MipcaActivity" />
+
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
             android:value="FAkbQCH5o1om9KAcfpEvv58Y" />
@@ -74,13 +79,10 @@
         -->
         <activity android:name=".login.smsdemo.SMSDemoActivity" />
         <activity android:name=".dialog.EditTextDialogActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".UDP.phone2phone.Phone2phoneActivity" />
+        <activity android:name=".SelectorShape.SelectorShapeActivity"></activity>
     </application>
 
 </manifest>

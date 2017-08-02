@@ -1,0 +1,16 @@
+网址:  http://blog.csdn.net/qq_20785431/article/details/50198315
+1: Selector（背景选择器）主要是用来改变一个按钮控件的背景，我们在点击Button时需要有些效果的变化，<selector>和<shape>对美化控件有很大的作用。
+#######**************###########
+
+2：常用selector shape 两者结合使用
+Android中selector和shape的结合使用 ：selector_shape_btn1_combine.xml
+Android中selector和shape的分开使用 ：selector_btn1.xml shape_btn1_press.xml shape_btn1_unpress.xml
+
+
+
+android:state_pressed="true"表示在组件被单击时的背景图片，
+android:state_window_focused="false" 表示默认时情况下的背景图片
+android:state_focused="true"表示在获得焦点时的背景图片
+android:state_selected="true"表示被选中时的背景图片
+android:state_enabled="true"表示响应时的背景图片
+在实际的开发中，我们可以根据不同的选定状态来定义不同的现实效果
