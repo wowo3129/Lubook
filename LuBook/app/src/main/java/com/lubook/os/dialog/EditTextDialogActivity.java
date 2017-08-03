@@ -1,12 +1,15 @@
 package com.lubook.os.dialog;
 
+import android.app.Activity;
 import android.content.Context;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 import com.lubook.os.R;
 import com.lubook.os.base.BaseActivity;
+
 
 
 public class EditTextDialogActivity extends BaseActivity implements View.OnClickListener {

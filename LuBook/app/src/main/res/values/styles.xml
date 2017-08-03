@@ -4,18 +4,22 @@
         <item name="windowActionBar">false</item>
     </style>
 
-    <style name="splashTheme" parent="Theme.AppCompat.Light">
+    <style name="splashTheme" parent="AppTheme">
         <item name="android:windowBackground">@drawable/splash</item>
         <item name="android:windowFullscreen">true</item>
-        <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
     <style name="EditDialog" parent="@android:style/Theme.Dialog">
-        <item name="android:windowFrame">@null</item> <!-- 边框 -->
-        <item name="android:windowIsFloating">true</item> <!-- 是否浮现在activity之上 -->
-        <item name="android:windowIsTranslucent">true</item> <!-- 半透明 -->
+        <item name="android:windowFrame">@null</item><!-- 边框 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item><!-- 半透明 -->
         <item name="android:windowNoTitle">true</item> <!-- 无标题 -->
-        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item><!--全屏-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--透明-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item><!--dialog显示动画-->
+        <item name="android:windowSoftInputMode">adjustResize</item><!--Activity主窗口总是被调整屏幕的大小以便留出软键盘的空间-->
+        <item name="android:windowCloseOnTouchOutside">true</item><!--是否点击外部可关闭-->
+        <item name="android:backgroundDimEnabled">true</item><!--背景是否模糊显示-->
     </style>
 </resources>

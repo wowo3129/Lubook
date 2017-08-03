@@ -1,15 +1,17 @@
 package com.lubook.os.SelectorShape;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
 import com.lubook.os.R;
+import com.lubook.os.base.BaseActivity;
 
-public class SelectorShapeActivity extends Activity implements View.OnClickListener {
+public class SelectorShapeActivity extends BaseActivity implements View.OnClickListener {
 
-    private Button selector_shape_btn1, selector_shape_btn1_combine, selector_shape_btn2_short_dashline, selector_shape_btn3_oval;
+    private Button selector_shape_btn1, selector_shape_btn1_combine, selector_shape_btn2_short_dashline;
+    private RelativeLayout selector_shape_btn3_oval;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,7 +23,7 @@ public class SelectorShapeActivity extends Activity implements View.OnClickListe
         selector_shape_btn1_combine.setOnClickListener(this);
         selector_shape_btn2_short_dashline = (Button) findViewById(R.id.selector_shape_btn2_short_dashline);
         selector_shape_btn2_short_dashline.setOnClickListener(this);
-        selector_shape_btn3_oval = (Button) findViewById(R.id.selector_shape_btn3_oval);
+        selector_shape_btn3_oval = (RelativeLayout) findViewById(R.id.selector_shape_btn3_oval);
         selector_shape_btn3_oval.setOnClickListener(this);
     }
 

@@ -11,9 +11,10 @@ import com.lubook.os.base.BaseActivity;
 import com.lubook.os.dialog.EditTextDialogActivity;
 import com.lubook.os.view.windowManager.FloatWindowManager;
 
+
 public class Launcher extends BaseActivity implements View.OnClickListener {
 
-    private Button main_show_info_img, main_exit_show_info_img, main_dialog,main_selector_shape;
+    private Button main_show_info_img, main_exit_show_info_img, main_dialog, main_selector_shape;
     private Context mContext;
 
     @Override
@@ -22,8 +23,8 @@ public class Launcher extends BaseActivity implements View.OnClickListener {
         setContentView(R.layout.activity_launcher);
         mContext = getApplicationContext();
         initView();
-
     }
+
 
     private void initView() {
         main_show_info_img = (Button) findViewById(R.id.main_show_info_img);

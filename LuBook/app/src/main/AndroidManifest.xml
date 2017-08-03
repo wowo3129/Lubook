@@ -78,7 +78,8 @@
                android:exported="true"></service>
         -->
         <activity android:name=".login.smsdemo.SMSDemoActivity" />
-        <activity android:name=".dialog.EditTextDialogActivity">
+        <activity
+            android:name=".dialog.EditTextDialogActivity">
 
         </activity>
         <activity android:name=".UDP.phone2phone.Phone2phoneActivity" />
