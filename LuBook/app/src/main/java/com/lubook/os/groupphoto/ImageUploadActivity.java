@@ -123,7 +123,7 @@ public class ImageUploadActivity extends BaseActivity implements SurfaceHolder.C
         new Thread(new Runnable() {
             public void run() {
                 boolean success = QRCodeUtil.createQRImage(imagepath.toString().trim(), 400, 400,
-                        BitmapFactory.decodeResource(getResources(), R.drawable.music_round), localqrcodepath);
+                        BitmapFactory.decodeResource(getResources(), R.drawable.robot_head), localqrcodepath);
                 if (success) {
                     runOnUiThread(new Runnable() {
                         @Override
