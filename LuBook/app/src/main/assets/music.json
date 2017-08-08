@@ -1,121 +1,226 @@
-/*
 {
-    "code": 0,
-    "msg": "错误码code相关的信息",
-    "name": "名字",
-    "score": "人脸识别的置信度",
-    "export": [
+  "result": [
+    {
+      "albumname": "其实我很在乎你",
+      "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-09-10/%E8%BD%A6%E9%9D%99%E5%AD%90/%E5%85%B6%E5%AE%9E%E6%88%91%E5%BE%88%E5%9C%A8%E4%B9%8E%E4%BD%A0/%E5%85%B6%E5%AE%9E%E6%88%91%E5%BE%88%E5%9C%A8%E4%B9%8E%E4%BD%A01441895184.mp3?token=818f6fa6dd1362e2ffcc52b30e1524d6a20c3468&e=1502175544&source=8a31270a29d7416e83a79884b4d7d05c",
+      "itemid": "45107529",
+      "movienames": [
+        "恐怖将映"
+      ],
+      "neatsongname": [
+        "其实我很在乎你"
+      ],
+      "pictures": [
+        null,
         {
-            "name": "名字",
-            "score": "人脸识别的置信度"
+          "level": 2,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/2/20160326/ab4152748252e195eaa672286c445d9b/071f7f3ad746ab583d8ec44b58e54175_middle.jpg",
+          "size": "500x500"
         },
         {
-            "name": "名字",
-            "score": "人脸识别的置信度"
-        },
-        {
-            "name": "名字",
-            "score": "人脸识别的置信度"
+          "level": 1,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/2/20160326/ab4152748252e195eaa672286c445d9b/071f7f3ad746ab583d8ec44b58e54175_small.jpg",
+          "size": "300x300"
         }
-    ]
-}
-*/
-{
-  "userword": [
-    {
-      "name": "我的常用词",
-      "words": [
-        "锐曼",
-        "锐曼装备"
+      ],
+      "programname": "",
+      "singeraliasnames": [],
+      "singerids": [
+        "189774"
+      ],
+      "singernames": [
+        "车静子"
+      ],
+      "songname": "其实我很在乎你",
+      "tagnames": [
+        "国语",
+        "流行",
+        "伤感",
+        "网络歌曲",
+        "孤独",
+        "思念",
+        "怀旧",
+        "经典",
+        "放松",
+        "90后"
       ]
     },
     {
-      "name": "联系人",
-      "words": [
-        "老板",
-        "高子庆",
-        "高总",
-        "高工",
-        "韵之",
-        "邵韵之",
-        "邵总",
-        "罗工",
-        "罗总",
-        "罗康",
-        "龙炳聪",
-        "小龙",
-        "金灿",
-        "俊展",
-        "吴俊展",
-        "道维",
-        "杨道维",
-        "家泽",
-        "王家泽",
-        "王工",
-        "谢景春",
-        "小谢",
-        "赵维",
-        "赵工",
-        "赵少松",
-        "小罗",
-        "罗秋根",
-        "定龙",
-        "陈定龙",
-        "马桂贞",
-        "小马",
-        "谢亮",
-        "张杰",
-        "赵工",
-        "俊景",
-        "彭俊景",
-        "小文",
-        "文成莉",
-        "文小姐",
-        "欣欣",
-        "刘欣欣",
-        "山鹏",
-        "高山鹏",
-        "嘉欣",
-        "罗嘉欣",
-        "刘欢",
-        "刘华坤",
-        "大伟",
-        "孙大伟",
-        "梁东冬",
-        "梁工",
-        "卓瑞凯",
-        "张汝昭",
-        "张工",
-        "李刚",
-        "沈涛",
-        "叶柳宏",
-        "叶工",
-        "杨晓峰",
-        "苏猛",
-        "小苏",
-        "张鹏",
-        "小何",
-        "何工",
-        "何春阳",
-        "成龙",
-        "李成龙",
-        "高子雄",
-        "郑庆金",
-        "李高",
-        "马海龙",
-        "吴志松"
+      "albumname": "Everything in the World",
+      "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-12-18/%E6%9B%B2%E5%A9%89%E5%A9%B7/Everything%20In%20The%20World%20%28%E7%99%BD%E9%87%91%E5%BA%86%E5%8A%9F%E7%89%88%29/%E6%88%91%E7%9A%84%E6%AD%8C%E5%A3%B0%E9%87%8C1450400371.mp3?token=3eea93711af4f518b5670045cd0c17791c412154&e=1502175544&source=8a31270a29d7416e83a79884b4d7d05c",
+      "itemid": "44798686",
+      "movienames": [
+        "春娇与志明"
+      ],
+      "neatsongname": [
+        "我的歌声里"
+      ],
+      "pictures": [
+        {
+          "level": 2,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160307/5c375d1ee526bdccc686017835d75c07/341cca14a58c359e4276e7d921329285_z.jpg",
+          "size": "500x500"
+        },
+        {
+          "level": 1,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160307/5c375d1ee526bdccc686017835d75c07/341cca14a58c359e4276e7d921329285_small.jpg",
+          "size": "300x300"
+        }
+      ],
+      "programname": "",
+      "singeraliasnames": [],
+      "singerids": [
+        "353491"
+      ],
+      "singernames": [
+        "曲婉婷"
+      ],
+      "songname": "我的歌声里",
+      "tagnames": [
+        "流行",
+        "国语",
+        "伤感",
+        "90后",
+        "夜晚",
+        "安静",
+        "思念",
+        "旅行",
+        "孤独",
+        "下午茶"
       ]
     },
     {
-      "name": "地点",
-      "words": [
-        "大厅",
-        "会议室",
-        "贵宾厅",
-        "财务室",
-        "市场部",
-        "会客厅",
-        "会客室"
+      "albumname": "北京巷弄",
+      "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-08-24/%E5%AD%99%E7%BE%BD%E5%B9%BD%E5%BE%90%E8%89%AF/%E5%8C%97%E4%BA%AC%E5%B7%B7%E5%BC%84/%E8%99%90%E5%BF%831440419221.mp3?token=0c87d31ce0e97daaf111b9fe27075c004020bb51&e=1502175544&source=8a31270a29d7416e83a79884b4d7d05c",
+      "itemid": "836551",
+      "movienames": [
+        ""
+      ],
+      "neatsongname": [
+        "虐心"
+      ],
+      "pictures": [
+        {
+          "level": 2,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160305/88019c9a85e47775b35bff4a7ce3cec2/d59f8918456cfe8714c0879671e30c32_z.jpg",
+          "size": "500x500"
+        },
+        {
+          "level": 1,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160305/88019c9a85e47775b35bff4a7ce3cec2/d59f8918456cfe8714c0879671e30c32_small.jpg",
+          "size": "300x300"
+        }
+      ],
+      "programname": "",
+      "singeraliasnames": [],
+      "singerids": [
+        "2349612",
+        "2336657"
+      ],
+      "singernames": [
+        "徐良",
+        "孙羽幽"
+      ],
+      "songname": "虐心",
+      "tagnames": [
+        "流行",
+        "国语",
+        "90后",
+        "聚会",
+        "伤感",
+        "安静",
+        "放松",
+        "孤独",
+        "清新",
+        "思念"
+      ]
+    },
+    {
+      "albumname": "最近还好吗",
+      "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2015-09-01/%E5%AD%99%E5%AD%90%E6%B6%B5/%E6%9C%80%E8%BF%91%E8%BF%98%E5%A5%BD%E5%90%97/%E9%9A%90%E8%BA%AB%E5%AE%88%E5%80%991441090538.mp3?token=15fb1b288bfb938437580871ed36584a9706be80&e=1502175544&source=8a31270a29d7416e83a79884b4d7d05c",
+      "itemid": "4452794",
+      "movienames": [
+        ""
+      ],
+      "neatsongname": [
+        "隐身守候"
+      ],
+      "pictures": [
+        {
+          "level": 2,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160307/37d42bfaca0c10d4478726659be63a24/c6b57be8028fecdb621e640106b11732_z.jpg",
+          "size": "500x500"
+        },
+        {
+          "level": 1,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160307/37d42bfaca0c10d4478726659be63a24/c6b57be8028fecdb621e640106b11732_small.jpg",
+          "size": "300x300"
+        }
+      ],
+      "programname": "",
+      "singeraliasnames": [],
+      "singerids": [
+        "181860"
+      ],
+      "singernames": [
+        "孙子涵"
+      ],
+      "songname": "隐身守候",
+      "tagnames": [
+        "流行",
+        "国语",
+        "伤感",
+        "90后",
+        "思念",
+        "夜晚",
+        "网络歌曲",
+        "安静",
+        "孤独",
+        "放松"
+      ]
+    },
+    {
+      "albumname": "心情出口",
+      "audiopath": "http://vbox.hf.openstorage.cn/ctimusic/128/2016-06-07/%E5%8D%97%E6%8B%B3%E5%A6%88%E5%A6%88/%E5%BF%83%E6%83%85%E5%87%BA%E5%8F%A3/%E4%B8%8B%E9%9B%A8%E5%A4%A91465251732.mp3?token=5b0604dd61a55c90f4ce389bf562dfd95fca5996&e=1502175544&source=8a31270a29d7416e83a79884b4d7d05c",
+      "itemid": "8740065",
+      "movienames": [
+        ""
+      ],
+      "neatsongname": [
+        "下雨天"
+      ],
+      "pictures": [
+        {
+          "level": 2,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160302/bb462048cd2bd880acde35a1d86ac3ce/c8c187f0f65ee379f7bd7889379a6e0d_z.jpg",
+          "size": "353x353"
+        },
+        {
+          "level": 1,
+          "path": "http://vbox.hfdn.openstorage.cn/ctipicture/1/20160302/bb462048cd2bd880acde35a1d86ac3ce/c8c187f0f65ee379f7bd7889379a6e0d_small.jpg",
+          "size": "300x300"
+        }
+      ],
+      "programname": "",
+      "singeraliasnames": [],
+      "singerids": [
+        "348268"
+      ],
+      "singernames": [
+        "南拳妈妈"
+      ],
+      "songname": "下雨天",
+      "tagnames": [
+        "流行",
+        "国语",
+        "伤感",
+        "安静",
+        "90后",
+        "思念",
+        "放松",
+        "夜晚",
+        "清新",
+        "孤独"
       ]
     }
   ]

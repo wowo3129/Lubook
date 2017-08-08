@@ -10,6 +10,8 @@ import com.blankj.utilcode.util.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import cn.bmob.v3.Bmob;
+
 /**
  * Created by wowo on 2017/6/23.
  */
@@ -19,6 +21,7 @@ public class BaseApplication extends Application {
     private Context applicationContext;
     public static BaseApplication mInstance;
     public List<BaseActivity> listActivity = null;
+    public static final String Bmob_ApplicationId = "36f843363ad767d59df757398f91f1ee";
 
     @Override
     public void onCreate() {
@@ -28,7 +31,12 @@ public class BaseApplication extends Application {
         applicationContext = getApplicationContext();
         listActivity = new ArrayList<BaseActivity>();
         initlog();
+        initBmob();
 //        initMobSDK();
+    }
+
+    private void initBmob() {
+        Bmob.initialize(this, Bmob_ApplicationId);
     }
 
     private void initMobSDK() {

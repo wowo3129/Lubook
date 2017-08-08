@@ -41,9 +41,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Launcher">
-
-        </activity>
+        <activity android:name=".Launcher"></activity>
         <activity android:name=".activity.FTM_Camera" />
         <activity android:name=".zxing.MipcaActivity" />
 
@@ -60,7 +58,9 @@
             android:name=".groupphoto.ImageUploadActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".zxing.MyQrActivity" />
-        <activity android:name=".meida.MusicActivity" />
+        <activity android:name=".meida.MusicActivity" >
+
+        </activity>
         <activity android:name=".UDP.clipTools.ClipActivity" />
         <activity android:name=".activity.UploadQrCodeActivity" />
         <activity
@@ -74,15 +74,19 @@
                android:exported="true"></service>
         -->
         <activity android:name=".login.smsdemo.SMSDemoActivity" />
-        <activity android:name=".dialog.EditTextDialogActivity"></activity>
+        <activity android:name=".dialog.EditTextDialogActivity" />
         <activity android:name=".UDP.phone2phone.Phone2phoneActivity" />
         <activity android:name=".SelectorShape.SelectorShapeActivity" />
         <activity android:name=".faceAi.FaceMatchActivity">
+
+        </activity>
+        <activity android:name=".Bmod.UserActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

@@ -16,6 +16,7 @@ public class LoginImpl {
 
     public interface IloginCallback {
         void onLoginSuccess(String msg);
+
         void onLoginFailed(String msg);
     }
 }

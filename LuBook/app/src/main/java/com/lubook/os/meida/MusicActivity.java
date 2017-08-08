@@ -2,6 +2,7 @@ package com.lubook.os.meida;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.widget.Toast;
@@ -11,7 +12,11 @@ import com.lubook.os.R;
 import com.lubook.os.base.BaseActivity;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -104,8 +109,7 @@ public class MusicActivity extends BaseActivity {
      */
     private List<BaseBean> getData(Intent data) {
 
-//        String jsonString = LocalJsonResolutionUtils.getJson(mContext, "music.json");
-        String jsonString="";
+        String jsonString = getJson(mContext, "music.json");
         List<BaseBean> songlist = null;
 
         try {
@@ -139,6 +143,23 @@ public class MusicActivity extends BaseActivity {
         }
     }
 
-
+    public static String getJson(Context mContext, String fileName) {
+        // TODO Auto-generated method stub
+        StringBuilder sb = new StringBuilder();
+        AssetManager am = mContext.getAssets();
+        try {
+            BufferedReader br = new BufferedReader(new InputStreamReader(
+                    am.open(fileName)));
+            String next = "";
+            while (null != (next = br.readLine())) {
+                sb.append(next);
+            }
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+            sb.delete(0, sb.length());
+        }
+        return sb.toString().trim();
+    }
 
 }

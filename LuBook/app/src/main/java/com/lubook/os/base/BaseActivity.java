@@ -26,13 +26,12 @@ public class BaseActivity extends Activity {
     }
 
 
-    UltimateBar ultimateBar = null;
-
     public UltimateBar getUimatebarInstance(Activity activity) {
+        UltimateBar ultimateBar = null;
         if (ultimateBar == null) {
             ultimateBar = new UltimateBar(activity);
         }
-        ultimateBar.setColorBar(ContextCompat.getColor(activity,R.color.colorPrimaryDark),50);
+        ultimateBar.setColorBar(ContextCompat.getColor(activity, R.color.colorPrimaryDark), 50);
         return ultimateBar;
     }
 
