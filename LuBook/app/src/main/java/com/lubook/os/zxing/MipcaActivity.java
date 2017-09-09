@@ -18,6 +18,7 @@ import android.view.View.OnClickListener;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.blankj.utilcode.util.ToastUtils;
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.Result;
 import com.lubook.os.R;
@@ -71,7 +72,7 @@ public class MipcaActivity extends Activity implements Callback {
             public void onClick(View v) {
                 Log.i("bind", "====================点击重置");
                 text.setText("");
-//                handler.sendEmptyMessage(R.id.restart_preview);
+                handler.sendEmptyMessage(R.id.restart_preview);
             }
         });
 
@@ -141,12 +142,13 @@ public class MipcaActivity extends Activity implements Callback {
             // this.setResult(RESULT_OK, resultIntent);
 
             // 加密转码
-//            handleOperator(AESOperator.getInstance().decrypt(resultAes));
+            handleOperator(AESOperator.getInstance().decrypt(resultAes));
         }
     }
 
     private void handleOperator(String operator) {
         Log.v(TAG, "扫描转码结果: " + operator);
+        ToastUtils.showShort("扫描转码结果: "+ operator);
     }
 
     private void initCamera(SurfaceHolder surfaceHolder) {

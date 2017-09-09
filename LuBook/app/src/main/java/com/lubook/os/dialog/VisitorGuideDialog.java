@@ -6,27 +6,21 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.StyleRes;
 import android.text.TextUtils;
-import android.util.DisplayMetrics;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.lubook.os.R;
+
 
 /**
  * Created by wowo on 2017/7/21.
  */
 
-public class EditDialog extends Dialog {
+public class VisitorGuideDialog extends Dialog {
 
-    public EditDialog(@NonNull Context context, @StyleRes int themeResId) {
+    public VisitorGuideDialog(@NonNull Context context, @StyleRes int themeResId) {
         super(context, themeResId);
     }
 
@@ -44,19 +38,12 @@ public class EditDialog extends Dialog {
         private Button ok;
         private Button cancle;
         private ImageView icon_dialog;
-        private EditText dialog_edit;
         private View.OnClickListener rightButtonClickListener;
         private View.OnClickListener LeftButtonClickListener;
         private TextView dialog_title;
 
         public Builder(Context mContext) {
             this.mContext = mContext;
-        }
-
-        public String getEditText() {
-            String str = dialog_edit.getText().toString().trim();
-            Toast.makeText(mContext, "str:" + str, Toast.LENGTH_SHORT).show();
-            return str;
         }
 
         public Builder setLeftText(String leftText) {
@@ -90,15 +77,15 @@ public class EditDialog extends Dialog {
         }
 
 
-        public EditDialog create() {
-            final EditDialog editDialog = new EditDialog(mContext, R.style.EditDialog);
-            View edit_dialog = LayoutInflater.from(mContext).inflate(R.layout.edit_dialog, null);
+        public VisitorGuideDialog create() {
+            final VisitorGuideDialog editDialog = new VisitorGuideDialog(mContext, R.style.EditDialog);
 
-            dialog_edit = (EditText) edit_dialog.findViewById(R.id.visitor_account_dialog_edit);
-            icon_dialog = (ImageView) edit_dialog.findViewById(R.id.icon_dialog);
-            cancle = (Button) edit_dialog.findViewById(R.id.dialog_cancle);
-            ok = (Button) edit_dialog.findViewById(R.id.dialog_ok);
-            dialog_title = (TextView) edit_dialog.findViewById(R.id.dialog_title);
+            View edit_dialog = View.inflate(mContext, R.layout.visitor_guide_dialog, null);
+
+            icon_dialog = (ImageView) edit_dialog.findViewById(R.id.cunfirm_icon_dialog);
+            cancle = (Button) edit_dialog.findViewById(R.id.cunfirm_dialog_cancle);
+            ok = (Button) edit_dialog.findViewById(R.id.cunfirm_dialog_ok);
+            dialog_title = (TextView) edit_dialog.findViewById(R.id.cunfirm_dialog_title);
 
 
             if (!TextUtils.isEmpty(leftText)) cancle.setText(leftText);
@@ -108,20 +95,9 @@ public class EditDialog extends Dialog {
             if (LeftButtonClickListener != null) cancle.setOnClickListener(LeftButtonClickListener);
             if (iconDrawble != null) icon_dialog.setBackground(iconDrawble);
 
-            /*设置Dialog显示*/
-            Window win = editDialog.getWindow();
-            /*宽高*/
-            WindowManager.LayoutParams mParams = win.getAttributes();
-            mParams.width = 720;
-            mParams.height = 720;/*动态获取屏幕尺寸，如果设置march_parent不起作用*/
-            /*位置*/
-            mParams.x = 0;
-            mParams.y = 0;
 
-            mParams.gravity = Gravity.CENTER;
-
-            editDialog.setContentView(edit_dialog, mParams);
-            editDialog.setCanceledOnTouchOutside(false);/*外部点击后不退出*/
+            editDialog.setContentView(edit_dialog);
+            editDialog.setCanceledOnTouchOutside(false);
             return editDialog;
 
         }

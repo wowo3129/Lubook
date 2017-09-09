@@ -15,6 +15,8 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import android.view.View;
+import android.widget.ImageView;
 
 import com.blankj.utilcode.util.ImageUtils;
 import com.lubook.os.R;

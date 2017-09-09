@@ -1,0 +1,21 @@
+{
+  "解决传说中的 Android 65k 问题": "http://www.jianshu.com/p/245022d136e1",
+  "UDP通讯": "UDP<--->Server",
+  "按钮按下效果": "music_next_selector.xml",
+  "shape背景图": "描边stroke，圆角corners，填充色solid就够了，rebot_edit_dialog_bg.xml",
+  "selector参考网址": "http://blog.csdn.net/qq_20785431/article/details/50198315",
+  "自定义View": "EditTextDialog,悬浮窗",
+  "EditText去焦点": "focusable / focusableInTouchMode true",
+  "沉浸式工具类": "UltimateBar-->https://github.com/Zackratos/UltimateBar",
+  "动态权限": "Android 6.0权限管理及其封装 EasyPermission :http://blog.csdn.net/u014099894/article/details/51896832",
+  "图片云存储": "拍照后将图片上传七牛-->生成二维码-->扫描二维码获取图片",
+  "Bmod后端云处理数据": "Bmod已完成",
+  "faceAi": "调用百度人脸匹配的api",
+  "观察者模式": "案例：http://www.jianshu.com/p/bae284970fe8",
+  "来电播放": "PlayerUtil",
+  "共享数据": "SharedPreferencesHelper",
+  "加密解密": {
+    "对称加密": "常见的对称加密算法有DES、3DES、AES、Blowfish、IDEA、RC5、RC6",
+    "非对称加密": "见58公众号加密方案"
+  }
+}

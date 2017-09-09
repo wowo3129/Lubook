@@ -43,7 +43,14 @@
         android:theme="@style/AppTheme">
         <activity android:name=".Launcher"></activity>
         <activity android:name=".activity.FTM_Camera" />
-        <activity android:name=".zxing.MipcaActivity" />
+        <activity android:name=".zxing.MipcaActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
 
         <meta-data
             android:name="com.baidu.lbsapi.API_KEY"
@@ -74,18 +81,16 @@
                android:exported="true"></service>
         -->
         <activity android:name=".login.smsdemo.SMSDemoActivity" />
-        <activity android:name=".dialog.EditTextDialogActivity" />
+        <activity android:name=".dialog.EditTextDialogActivity" >
+
+        </activity>
         <activity android:name=".UDP.phone2phone.Phone2phoneActivity" />
         <activity android:name=".SelectorShape.SelectorShapeActivity" />
         <activity android:name=".faceAi.FaceMatchActivity">
 
         </activity>
         <activity android:name=".Bmod.UserActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
 
         </activity>
     </application>

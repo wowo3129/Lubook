@@ -17,8 +17,8 @@ public class EditTextDialogActivity extends BaseActivity implements View.OnClick
     private Context mContext;
     private EditDialog dialog;
     private EditDialog.Builder builder;
-    private ConfirmDialog confirmDialog;
-    private ConfirmDialog.Builder confirmBuilder;
+    private VisitorDisplayDialog confirmDialog;
+    private VisitorDisplayDialog.Builder confirmBuilder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,15 +55,10 @@ public class EditTextDialogActivity extends BaseActivity implements View.OnClick
     }
 
     private void confirmDialog() {
-        confirmBuilder = new ConfirmDialog.Builder(EditTextDialogActivity.this)
+        confirmBuilder = new VisitorDisplayDialog.Builder(EditTextDialogActivity.this)
                 .setIcon(null)
-                .setTitle("自定义机器人昵称")
-                .setLeftButtonClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        confirmDialog.dismiss();
-                    }
-                }).setRightButtonClickListener(new View.OnClickListener() {
+                .setTitle("您已经预约完成，接下来请您打开手机，机器人需要扫描下服务器发送给您的二维码!")
+                .setRightButtonClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         confirmDialog.dismiss();

@@ -1,0 +1,20 @@
+{
+  "result": {
+    /*物体识别检测*/
+    "detectPhysicalurl": "http://192.168.254.73:5001/",
+    /*物体录入图片*/
+    "UploadPhysicalObjurl": "http://192.168.254.73:5001/addpic",
+    /*face检测*/
+    "detectFaceUrl": "http://192.168.254.73:7777/detect",
+    /*face训练测试*/
+    "trainTestFaceurl": "http://192.168.254.73:7777/test",
+    /*录入人脸*/
+    "trainAddFaceurl": "http://192.168.254.73:7777/addface",
+    /*face录入完后进行人脸训练*/
+    "trainFaceurl": "http://192.168.254.73:7777/train",
+    /*face刪除训练生成的图片*/
+    "trainDeleteFaceurl": "http://192.168.254.73:7777/delete",
+    /*训练状态判断*/
+    "trainFlagFaceurl": "http://192.168.254.73:7777/train_flag"
+  }
+}

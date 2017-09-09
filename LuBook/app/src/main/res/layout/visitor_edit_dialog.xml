@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="1200dp"
+    android:layout_height="800dp">
+
+    <LinearLayout
+        android:layout_width="1000dp"
+        android:layout_height="800dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="3dp"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="880dp"
+            android:layout_height="100dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icon_dialog"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/close_btn" />
+
+            <TextView
+                android:id="@+id/dialog_title"
+                android:layout_width="750dp"
+                android:layout_height="100dp"
+                android:gravity="center|left"
+                android:text="填写您要拜访的顾客信息"
+                android:textColor="@color/white"
+                android:textSize="50sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="750dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/visitor_company_dialog_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/login_edittext_bg"
+                android:hint="拜访公司名称"
+                android:maxLength="10"
+                android:textSize="36sp" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/colorAccent"
+                android:text="搜索" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <EditText
+                android:id="@+id/visitor_name_dialog_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/login_edittext_bg"
+                android:hint="您的姓名"
+                android:maxLength="10"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/visitor_account_dialog_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/login_edittext_bg"
+                android:hint="您的手机号"
+                android:maxLength="10"
+                android:textSize="36sp" />
+
+            <EditText
+                android:id="@+id/master_name_dialog_edit"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/login_edittext_bg"
+                android:hint="您要拜访谁"
+                android:maxLength="10"
+                android:textSize="36sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/dialog_cancle"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/login_edittext_bg"
+                    android:gravity="center"
+                    android:text="取消"
+                    android:textSize="50dp"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/dialog_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/login_edittext_bg"
+                    android:gravity="center"
+                    android:text="确认"
+                    android:textSize="50dp"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

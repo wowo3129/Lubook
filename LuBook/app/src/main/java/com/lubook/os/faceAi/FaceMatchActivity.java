@@ -71,7 +71,7 @@ public class FaceMatchActivity extends BaseActivity {
             String result = HttpUtil.post(matchUrl, accessToken, params);
             System.out.println("main:1111" + result);
             long end = System.currentTimeMillis();
-            System.out.print("main::1111--->"+(start - end)/1000);
+            System.out.print("main::1111--->" + (start - end) / 1000);
         } catch (Exception e) {
             e.printStackTrace();
         }

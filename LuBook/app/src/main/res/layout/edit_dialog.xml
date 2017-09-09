@@ -32,19 +32,18 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:gravity="center|left"
-                android:text="自定义标题"
+                android:text="填写您要拜访的顾客信息"
                 android:textColor="@color/white" />
 
         </LinearLayout>
-
         <EditText
-            android:id="@+id/dialog_edit"
+            android:id="@+id/master_name_dialog_edit"
             android:layout_width="190dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             android:background="@drawable/login_edittext_bg"
-            android:hint="自定义文本内容"
+            android:hint="您要拜访谁"
             android:maxLength="10"
             android:textSize="15sp" />
 

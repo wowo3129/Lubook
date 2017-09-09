@@ -6,7 +6,6 @@ import android.graphics.drawable.Drawable;
 import android.support.annotation.NonNull;
 import android.support.annotation.StyleRes;
 import android.text.TextUtils;
-import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -24,9 +23,9 @@ import com.lubook.os.R;
  * Created by wowo on 2017/7/21.
  */
 
-public class EditDialog extends Dialog {
+public class VisitorEditDialog extends Dialog {
 
-    public EditDialog(@NonNull Context context, @StyleRes int themeResId) {
+    public VisitorEditDialog(@NonNull Context context, @StyleRes int themeResId) {
         super(context, themeResId);
     }
 
@@ -90,11 +89,11 @@ public class EditDialog extends Dialog {
         }
 
 
-        public EditDialog create() {
-            final EditDialog editDialog = new EditDialog(mContext, R.style.EditDialog);
-            View edit_dialog = LayoutInflater.from(mContext).inflate(R.layout.edit_dialog, null);
+        public VisitorEditDialog create() {
+            final VisitorEditDialog editDialog = new VisitorEditDialog(mContext, R.style.EditDialog);
+            View edit_dialog = LayoutInflater.from(mContext).inflate(R.layout.visitor_edit_dialog, null);
 
-            dialog_edit = (EditText) edit_dialog.findViewById(R.id.visitor_account_dialog_edit);
+            dialog_edit = (EditText) edit_dialog.findViewById(R.id.visitor_company_dialog_edit);
             icon_dialog = (ImageView) edit_dialog.findViewById(R.id.icon_dialog);
             cancle = (Button) edit_dialog.findViewById(R.id.dialog_cancle);
             ok = (Button) edit_dialog.findViewById(R.id.dialog_ok);
@@ -112,13 +111,13 @@ public class EditDialog extends Dialog {
             Window win = editDialog.getWindow();
             /*宽高*/
             WindowManager.LayoutParams mParams = win.getAttributes();
-            mParams.width = 720;
-            mParams.height = 720;/*动态获取屏幕尺寸，如果设置march_parent不起作用*/
+            mParams.width = 1200;
+            mParams.height = 800;/*动态获取屏幕尺寸，如果设置march_parent不起作用*/
             /*位置*/
             mParams.x = 0;
             mParams.y = 0;
 
-            mParams.gravity = Gravity.CENTER;
+            mParams.gravity = Gravity.CENTER | Gravity.RIGHT;
 
             editDialog.setContentView(edit_dialog, mParams);
             editDialog.setCanceledOnTouchOutside(false);/*外部点击后不退出*/

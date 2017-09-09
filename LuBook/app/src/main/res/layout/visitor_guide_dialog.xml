@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cunfirm_activity_main"
+    android:layout_width="1300dp"
+    android:layout_height="800dp">
+
+    <LinearLayout
+        android:layout_width="1300dp"
+        android:layout_height="800dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/dialog_bg"
+        android:orientation="vertical">
+        <!--rebot_edit_dialog_bg-->
+
+        <RelativeLayout
+            android:layout_width="1100dp"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:id="@+id/visitor_edit_close"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/close_btn" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/cunfirm_dialog_title"
+            android:layout_width="900dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:text="提示:  请根据您的身份选择: 预约访客 或 临时访客 !"
+            android:textColor="@color/white"
+            android:textSize="50sp"/>
+
+        <LinearLayout
+            android:layout_width="1000dp"
+            android:layout_height="500dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cunfirm_dialog_cancle"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/selector_shape_btn1_combine"
+                android:gravity="center"
+                android:textSize="50sp"
+                android:text="临时预约"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/cunfirm_dialog_ok"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1.0"
+                android:textSize="50sp"
+                android:background="@drawable/selector_shape_btn1_combine"
+                android:gravity="center"
+                android:text="预约访客"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

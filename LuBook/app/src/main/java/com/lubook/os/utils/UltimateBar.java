@@ -17,6 +17,7 @@ import android.widget.FrameLayout;
 
 /**
  * Created by zack on 17-5-14.
+ * 沉浸式使用工具
  */
 
 public class UltimateBar {
