@@ -2,7 +2,9 @@
   "签名": {
     "Android Studio获取SHA1或MD5的方法": "http://jingyan.baidu.com/album/cbf0e500aca3232eaa289301.html?picindex=2",
     "AS如何签名": "http://blog.csdn.net/donkor_/article/details/53487133",
-    "通过AS签名后就可以发布到商店了": ""
+    "通过AS签名后就可以发布到商店了": "",
+	"首次安装AS设置代理":"http://www.cnblogs.com/zl1991/p/6378060.html",
+	"AS配置详解":"http://www.cnblogs.com/smyhvae/p/4390905.html"
   },
   "业务": {
     "原型": "找一个会产品定位",

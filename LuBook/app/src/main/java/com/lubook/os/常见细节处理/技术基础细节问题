@@ -17,5 +17,6 @@
   "加密解密": {
     "对称加密": "常见的对称加密算法有DES、3DES、AES、Blowfish、IDEA、RC5、RC6",
     "非对称加密": "见58公众号加密方案"
-  }
+  },
+  "SVN在AS的使用": "http://www.cnblogs.com/aspirant/p/7140695.html"
 }
