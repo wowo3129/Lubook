@@ -4,6 +4,8 @@ android {
     compileSdkVersion 23
     buildToolsVersion "25.0.3"
     useLibrary 'org.apache.http.legacy'
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
     defaultConfig {
         applicationId "com.lubook.os"
         minSdkVersion 19
