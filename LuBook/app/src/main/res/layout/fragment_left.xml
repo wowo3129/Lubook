@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_left"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_logo" />
+
+
+        <ImageView
+            android:id="@+id/iv_voice"
+            android:layout_width="320dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/icon_voice_00" />
+
+        <LinearLayout
+            android:layout_width="337dp"
+            android:layout_height="310dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/backgroud_dialog">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recy_list_info"
+                android:layout_width="337dp"
+                android:layout_height="310dp"
+                android:layout_gravity="center"
+                android:divider="@android:color/transparent"
+                android:listSelector="@android:color/transparent"
+                android:paddingTop="30dp"
+                android:scrollbars="none"
+                android:transcriptMode="alwaysScroll"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
+

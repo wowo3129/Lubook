@@ -39,7 +39,7 @@ public class FaceMatchActivity extends BaseActivity {
 
     /**
      * 重要提示代码中所需工具类
-     * FileUtil,Base64Util,HttpUtil,GsonUtils请从
+     * FaceFileUtil,FaceBase64Util,FaceHttpUtil,GsonUtils请从
      * https://ai.baidu.com/file/658A35ABAB2D404FBF903F64D47C1F72
      * https://ai.baidu.com/file/C8D81F3301E24D2892968F09AE1AD6E2
      * https://ai.baidu.com/file/544D677F5D4E4F17B4122FBD60DB82B3
@@ -55,20 +55,20 @@ public class FaceMatchActivity extends BaseActivity {
         String filePath2 = "/sdcard/reeman/4.jpg";
         String filePath3 = "/sdcard/reeman/5.jpg";
         try {
-            byte[] imgData1 = FileUtil.readFileByBytes(filePath1);
-            byte[] imgData2 = FileUtil.readFileByBytes(filePath2);
-            byte[] imgData3 = FileUtil.readFileByBytes(filePath3);
-            String imgStr1 = Base64Util.encode(imgData1);
-            String imgStr2 = Base64Util.encode(imgData2);
-            String imgStr3 = Base64Util.encode(imgData3);
+            byte[] imgData1 = FaceFileUtil.readFileByBytes(filePath1);
+            byte[] imgData2 = FaceFileUtil.readFileByBytes(filePath2);
+            byte[] imgData3 = FaceFileUtil.readFileByBytes(filePath3);
+            String imgStr1 = FaceBase64Util.encode(imgData1);
+            String imgStr2 = FaceBase64Util.encode(imgData2);
+            String imgStr3 = FaceBase64Util.encode(imgData3);
             String params = URLEncoder.encode("images", "UTF-8") + "="
                     + URLEncoder.encode(imgStr1 + "," + imgStr2 + "," + imgStr3, "UTF-8");
             /**
              * 线上环境access_token有过期时间， 客户端可自行缓存，过期后重新获取。
              */
-            String accessToken = AuthService.getAuth();
+            String accessToken = FaceAuthService.getAuth();
 //            String accessToken = "#####调用鉴权接口获取的token#####";
-            String result = HttpUtil.post(matchUrl, accessToken, params);
+            String result = FaceHttpUtil.post(matchUrl, accessToken, params);
             System.out.println("main:1111" + result);
             long end = System.currentTimeMillis();
             System.out.print("main::1111--->" + (start - end) / 1000);

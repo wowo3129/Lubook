@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:topLeftRadius="12dp" android:topRightRadius="12dp" />
+            <!--填充色-->
+            <solid android:color="@color/btn_blue" />
+            <!--描边，设置描边为虚线，其中android:dashWidth表示'-'这样一个横线的宽度，android:dashGap表示之间隔开的距离-->
+            <stroke android:width="2dp" android:color="@color/btn_blue" />
+        </shape>
+
+    </item>
+</selector>
+
+

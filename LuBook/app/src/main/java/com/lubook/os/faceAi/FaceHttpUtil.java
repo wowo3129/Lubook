@@ -11,12 +11,12 @@ import java.util.Map;
 /**
  * http 工具类
  */
-public class HttpUtil {
+public class FaceHttpUtil {
 
     public static String post(String requestUrl, String accessToken, String params)
             throws Exception {
         String contentType = "application/x-www-form-urlencoded";
-        return HttpUtil.post(requestUrl, accessToken, contentType, params);
+        return FaceHttpUtil.post(requestUrl, accessToken, contentType, params);
     }
 
     public static String post(String requestUrl, String accessToken, String contentType, String params)
@@ -25,13 +25,13 @@ public class HttpUtil {
         if (requestUrl.contains("nlp")) {
             encoding = "GBK";
         }
-        return HttpUtil.post(requestUrl, accessToken, contentType, params, encoding);
+        return FaceHttpUtil.post(requestUrl, accessToken, contentType, params, encoding);
     }
 
     public static String post(String requestUrl, String accessToken, String contentType, String params, String encoding)
             throws Exception {
         String url = requestUrl + "?access_token=" + accessToken;
-        return HttpUtil.postGeneralUrl(url, contentType, params, encoding);
+        return FaceHttpUtil.postGeneralUrl(url, contentType, params, encoding);
     }
 
     public static String postGeneralUrl(String generalUrl, String contentType, String params, String encoding)

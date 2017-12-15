@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 25
     buildToolsVersion "25.0.3"
     useLibrary 'org.apache.http.legacy'
     aaptOptions.cruncherEnabled = false
@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "com.lubook.os"
         minSdkVersion 19
-        targetSdkVersion 23
+        targetSdkVersion 25
         versionCode 1
         versionName "1.0"
         multiDexEnabled true /*解决传说中的 Android 65k 问题*/
@@ -37,12 +37,31 @@ repositories {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile name: 'SMSSDK-3.0.0', ext: 'aar'
-    compile 'com.android.support:appcompat-v7:23.4.0'
-    compile 'com.android.support:design:23.4.0'
-    compile 'com.qiniu:qiniu-java-sdk:7.2.+'
+    /*后台云服务*/
+
+    /*发送消息*/
+
+    //
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:support-v4:25.3.1'
     compile 'com.github.bumptech.glide:glide:3.6.1'
     compile 'jp.wasabeef:glide-transformations:2.0.2'
+    compile 'com.qiniu:qiniu-java-sdk:7.2.+'
     compile 'com.blankj:utilcode:1.6.3'
-    compile 'cn.bmob.android:bmob-sdk:3.5.6'/*后台云服务*/
+    compile 'cn.bmob.android:bmob-sdk:3.5.6'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    //
+    compile 'com.jakewharton:butterknife:8.7.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.7.0'
+    //
+    compile 'com.github.jokermonn:permissions4m:2.1.2-lib'
+    annotationProcessor 'com.github.jokermonn:permissions4m:2.1.2-processor'
+    //
+    compile 'com.tencent.bugly:crashreport:latest.release'//bugly
+    //
+    compile 'com.zt.maven.widget:refreshview:1.0.0' //下拉上啦刷新
 
+    compile 'org.opencv:opencv-android:2.4.8'//opecv
 }

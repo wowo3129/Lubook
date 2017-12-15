@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_main"
+    tools:context="com.lubook.os.Fragment.Test.FragmentTestActivity">
+
+    <fragment
+        android:id="@+id/test_left_fragment"
+        android:name="com.lubook.os.Fragment.Test.LeftFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:onClick="onTest"
+            android:text="查询酒店"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:onClick="onBookingRoom"
+            android:text="提交入住订单"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:onClick="onConfirmRoomOrder"
+            android:text="订单入住确认"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:onClick="onCancelRoomOrder"
+            android:text="订单入住取消"
+            android:textSize="30dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:onClick="onQueryOrder"
+            android:text="组合查询订单"
+            android:textSize="30dp" />
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/qr_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/btn_blue"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="3.0">
+
+        <FrameLayout
+            android:id="@+id/frame_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RelativeLayout>
+
+</LinearLayout>

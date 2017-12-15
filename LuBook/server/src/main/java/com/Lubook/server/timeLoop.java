@@ -5,10 +5,15 @@ package com.Lubook.server;
  */
 
 public class timeLoop {
-    public static void main(String[] args) throws InterruptedException {
-        long diffTime = (System.currentTimeMillis()) / 1000;
-        Thread.sleep(2000);
-        long end = (System.currentTimeMillis()) / 1000;
-        System.out.print(end - diffTime);
+    public static void main(String[] args) {
+//        String s = birthdayFormat();
+//        System.out.print(s);
+    }
+
+    public static String birthdayFormat(String str) {
+        String substring1 = str.substring(0, 4);
+        String substring2 = str.substring(4, 6);
+        String substring3 = str.substring(6, 8);
+        return substring1 + "-" + substring2 + "-" + substring3;
     }
 }

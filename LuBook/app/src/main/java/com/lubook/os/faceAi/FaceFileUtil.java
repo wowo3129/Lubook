@@ -10,7 +10,7 @@ import java.io.IOException;
 /**
  * 文件读取工具类
  */
-public class FileUtil {
+public class FaceFileUtil {
 
     /**
      * 读取文件内容，作为字符串返回

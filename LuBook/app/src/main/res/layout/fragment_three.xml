@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.lubook.os.Fragment.Test.ThreeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="680dp"
+        android:layout_height="match_parent"
+        android:background="@color/dialog_bg"
+        android:text="第三个fragment"
+        android:textSize="56sp" />
+
+</FrameLayout>

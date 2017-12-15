@@ -5,6 +5,7 @@ import android.content.Context;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
+import com.tencent.bugly.crashreport.CrashReport;
 //import com.mob.MobSDK;
 
 import java.util.ArrayList;
@@ -33,6 +34,7 @@ public class BaseApplication extends Application {
         initlog();
         initBmob();
 //        initMobSDK();
+        CrashReport.initCrashReport(getApplicationContext(), "823853352b", true);// bugly 这一句就够了
     }
 
     private void initBmob() {
@@ -45,7 +47,7 @@ public class BaseApplication extends Application {
 
     private void initlog() {
         Utils.init(applicationContext);
-        LogUtils.Builder builder = new LogUtils.Builder().setBorderSwitch(false).setLog2FileSwitch(false);
+        LogUtils.Builder builder = new LogUtils.Builder().setBorderSwitch(false).setLog2FileSwitch(true);
     }
 
     public Context getContext() {

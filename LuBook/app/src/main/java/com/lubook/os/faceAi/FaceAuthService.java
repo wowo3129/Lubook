@@ -12,7 +12,7 @@ import java.util.Map;
 /**
  * 获取token类
  */
-public class AuthService {
+public class FaceAuthService {
 
     /**
      * 获取权限token
@@ -25,9 +25,9 @@ public class AuthService {
      */
     public static String getAuth() {
         // 官网获取的 API Key 更新为你注册的
-        String clientId = "u12Fw3SzSHs0SSBEnzMEjmjO";
+        String clientId = "Yh2Vs92ALWdOcon9lQKm15bK";
         // 官网获取的 Secret Key 更新为你注册的
-        String clientSecret = "agdzAGAdpFAXffpUOwT9Gr7ypfe5gek4";
+        String clientSecret = "SHNHUg7cB5w4cm0hm7bSSX0rBzNX73IC";
         return getAuth(clientId, clientSecret);
     }
 

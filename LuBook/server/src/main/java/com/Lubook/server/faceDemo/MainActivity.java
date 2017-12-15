@@ -45,12 +45,12 @@ public class MainActivity {
                 options.put("face_fields", "beauty");
 
                 // 参数为本地图片路径
-                String imagePath = "sdcard/img/1.jpg";
+                String imagePath = "sdcard/reeman/1.jpg";
 
                 JSONObject response = client.detect(imagePath, options);
 
                 long end = System.currentTimeMillis();
-                System.out.print(TAG + response.toString() + "\n" + (end - start) + "毫秒");
+                System.out.print(TAG + response.toString() + "\n" + (end - start) + "ms");
             }
         }).start();
 
@@ -62,9 +62,9 @@ public class MainActivity {
             public void run() {
                 long start = System.currentTimeMillis();
                 // 参数为本地图片路径 比较
-                String imagePath1 = "sdcard/img/1.jpg";
-                String imagePath2 = "sdcard/img/2.jpg";
-                String imagePath3 = "sdcard/img/3.jpg";
+                String imagePath1 = "sdcard/reeman/1.jpg";
+                String imagePath2 = "sdcard/reeman/4.jpg";
+                String imagePath3 = "sdcard/reeman/5.jpg";
                 ArrayList<String> pathArray = new ArrayList<String>();
                 pathArray.add(imagePath1);
                 pathArray.add(imagePath2);
@@ -76,7 +76,7 @@ public class MainActivity {
                 JSONObject response = client.match(pathArray, options);
 
                 long end = System.currentTimeMillis();
-                System.out.print(TAG + response.toString() + "\n" + (end - start) + "毫秒");
+                System.out.print(TAG + response.toString() + "\n" + (end - start) + "ms");
 
             }
         }).start();
